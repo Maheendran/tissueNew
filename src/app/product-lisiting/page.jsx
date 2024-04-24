@@ -10,11 +10,11 @@ const page = () => {
 
       <div className="w-full h-[15vh] mb-2"></div>
 
-      <p className="text-[3rem] text-center mb-[2rem] font-bold font-san text-neutral-600">Show casing Products</p>
+      <p className="text-[2rem] text-center mb-[2rem] font-bold font-san text-neutral-600">Show casing Products</p>
 
       <div className="w-[60%] mx-auto h-fit   flex flex-wrap gap-3 justify-around mb-[3rem] ">
         <Link
-          className="w-[47%] h-[55vh]  border-2 rounded-3xl"
+          className="w-[47%] h-fit  border-2 rounded-3xl"
           href={"/product-detail/facial-tisssue"}
         >
           <div className="w-[80%] mx-auto  h-[85%] relative ">
@@ -25,14 +25,14 @@ const page = () => {
             />
           </div>
           <div className="w-fit h-fit flex  mx-auto">
-            <p className="text-[2rem]  bg-transparent text-center  mx-auto ">
+            <p className="text-[1rem]  bg-transparent text-center  mx-auto ">
               Facial tissue
             </p>
           </div>
         </Link>
     
         <Link
-          className="w-[47%] h-[55vh]  border-2 rounded-3xl"
+          className="w-[47%] h-fit  border-2 rounded-3xl"
           href={"/product-detail/facial-tisssue"}
         >
           <div className="w-[80%] mx-auto  h-[85%] relative ">
@@ -44,7 +44,7 @@ const page = () => {
             />
           </div>
           <div className="w-fit h-fit flex  mx-auto">
-            <p className="text-[2rem]  bg-transparent text-center  mx-auto ">
+            <p className="text-[1rem]  bg-transparent text-center  mx-auto ">
               Facial tissue
             </p>
           </div>
@@ -53,7 +53,7 @@ const page = () => {
       
     
         <Link
-          className="w-[47%] h-[55vh]  border-2 rounded-3xl"
+          className="w-[47%] h-fit  border-2 rounded-3xl"
           href={"/product-detail/facial-tisssue"}
         >
           <div className="w-[80%] mx-auto  h-[85%] relative ">
@@ -65,13 +65,13 @@ const page = () => {
             />
           </div>
           <div className="w-fit h-fit flex  mx-auto">
-            <p className="text-[2rem]  bg-transparent text-center  mx-auto ">
+            <p className="text-[1rem]  bg-transparent text-center  mx-auto ">
               Facial tissue
             </p>
           </div>
         </Link>
         <Link
-          className="w-[47%] h-[55vh]  border-2 rounded-3xl"
+          className="w-[47%] h-fit  border-2 rounded-3xl"
           href={"/product-detail/facial-tisssue"}
         >
           <div className="w-[80%] mx-auto  h-[85%] relative ">
@@ -82,7 +82,7 @@ const page = () => {
             />
           </div>
           <div className="w-fit h-fit flex  mx-auto">
-            <p className="text-[2rem]  bg-transparent text-center  mx-auto ">
+            <p className="text-[1rem]  bg-transparent text-center  mx-auto ">
               Facial tissue
             </p>
           </div>

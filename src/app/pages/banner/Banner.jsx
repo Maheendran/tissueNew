@@ -116,7 +116,7 @@ const Banner = () => {
                 src="https://i5.walmartimages.com/asr/e1fee03c-81a6-43e7-b9ce-279fbdcc60b6_1.1b34a33ced7720220e629cac6222d1ae.jpeg"
                 alt=""
               />
-              <p className="text-center font-bold text-[2rem] text-neutral-500">
+              <p className="text-center font-bold text-[1rem] text-neutral-500">
                 Facial Tissue
               </p>
             </div>
@@ -131,7 +131,7 @@ const Banner = () => {
                 src="https://m.media-amazon.com/images/I/81+sWKCtJ8L.jpg"
                 alt=""
               />
-              <p className="text-center font-bold text-[2rem] text-neutral-500">
+              <p className="text-center font-bold text-[1rem] text-neutral-500">
                 Facial Tissue
               </p>
             </div>
@@ -146,7 +146,7 @@ const Banner = () => {
                 src="https://i5.walmartimages.com/asr/e1fee03c-81a6-43e7-b9ce-279fbdcc60b6_1.1b34a33ced7720220e629cac6222d1ae.jpeg"
                 alt=""
               />
-              <p className="text-center font-bold text-[2rem] text-neutral-500">
+              <p className="text-center font-bold text-[1rem] text-neutral-500">
                 Facial Tissue
               </p>
             </div>
@@ -161,7 +161,7 @@ const Banner = () => {
                 src="https://m.media-amazon.com/images/I/81+sWKCtJ8L.jpg"
                 alt=""
               />
-              <p className="text-center font-bold text-[2rem] text-neutral-500">
+              <p className="text-center font-bold text-[1rem] text-neutral-500">
                 Facial Tissue
               </p>
             </div>
@@ -183,7 +183,7 @@ const Banner = () => {
             <p className="text-[2rem]">Eco-friendly</p>
 
             <p>it is the only way forward.</p>
-            <p className="text-[1.2rem] bg-transparent">
+            <p className="text-[0.9rem] bg-transparent">
               At Just in case, we firmly believe that eco-friendly practices
               aren't just an option; they're the imperative path forward. We are
               committed to sourcing pulp and other raw materials exclusively
