@@ -78,7 +78,7 @@ useEffect(() => {
    <>
     <div className="w-full h-[15vh] " ></div>
         <section ref={ref} className=" h-[100vh]    relative overflow-hidden ">
-      <motion.h1 animate={videoHead} className="  w-[60%] sm:leading-[2.6rem] sm:w-[60%] md:w-[70%] text-[1.9rem] sm:text-[2.5rem] text-3xl md:text-4xl font-bold  text-gray-600     ms-auto text-end block mb-4   text-primary  px-4  sm:px-20">
+      <motion.h1 animate={videoHead} className="  w-[60%] sm:leading-[2.6rem] sm:w-[60%] md:w-[70%] text-[1.9rem] sm:text-[2.5rem] text-3xl md:text-3xl font-bold  text-gray-600     ms-auto text-end block mb-4   text-primary  px-4  sm:px-20">
     
       Experience Our Story in Motion
       </motion.h1>
