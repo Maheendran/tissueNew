@@ -17,18 +17,18 @@ function Navbar() {
 	     
 
 	return (
-		<header className="bg-white border z-[100000000] text-black h-[15vh] fixed top-0 left-0 w-full flex justify-between" >
+		<header className="bg-white border px-2 z-[100000000] text-black h-[10vh] fixed top-0 left-0 w-full flex justify-between" >
 	<Link
 			className="my-auto"
     href={"/"}
                 >
-			<img src="/logo.png" className="my-auto mx-3" style={{width:'2.3rem',height:"2.5rem"}} alt="" />
+			<img src="/logo2.png" className="my-auto  bg-transparent" style={{width:'2.5rem',height:"2.7rem"}} alt="" />
 				
                 </Link>
 
-			<nav ref={navRef} className="flex gap-5 px-3 sm:w-100  h-full z-50  ">
+			<nav ref={navRef} className=" bg-white flex gap-5 px-3 sm:w-100  h-full z-50  ">
 			<Link
-			className="my-auto"
+			className="my-auto bg-transparent"
     href={"/product-lisiting"}
                 >
 				  Products
@@ -38,21 +38,21 @@ function Navbar() {
 				
 			
 				<Link
-				className="my-auto"
+				className="my-auto  bg-transparent"
             href={"/about"}
                 >
 				  About
                 </Link>
 			
 				<Link
-				className="my-auto"
-        	    href={"/about"}
+				className="my-auto  bg-transparent"
+        	    href={"/story"}
                 >
-				  Sustainability
+				  Story
                 </Link>
 				<Link
-				className="my-auto"
-        	    href={"/about"}
+				className="my-auto  bg-transparent"
+        	    href={"/contact-us"}
                 >
 				  Contact
                 </Link>

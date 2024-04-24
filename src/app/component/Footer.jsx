@@ -138,7 +138,7 @@ const Footer = () => {
                   </a>
                 </div>
                 <p className="text-base text-body-color dark:text-dark-6">
-                  &copy; 2025 TailGrids
+                  &copy; Just in case 2024
                 </p>
               </div>
             </div>

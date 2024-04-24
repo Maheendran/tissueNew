@@ -75,8 +75,9 @@ useEffect(() => {
 
   const [videoPlaying, setVideoPlaying] = useState(false);
   return (
-    // 
-    <section ref={ref} className=" h-[100vh]    relative overflow-hidden ">
+   <>
+    <div className="w-full h-[15vh] " ></div>
+        <section ref={ref} className=" h-[100vh]    relative overflow-hidden ">
       <motion.h1 animate={videoHead} className="  w-[60%] sm:leading-[2.6rem] sm:w-[60%] md:w-[70%] text-[1.9rem] sm:text-[2.5rem] text-3xl md:text-4xl font-bold  text-gray-600     ms-auto text-end block mb-4   text-primary  px-4  sm:px-20">
     
       Experience Our Story in Motion
@@ -89,14 +90,14 @@ useEffect(() => {
               className="mx-auto  mt-[2rem]  relative z-20 w-[88%] sm:w-[85%] h-[300px]
           overflow-hidden   rounded-[20px] md:h-[65vh] "
             >
-              <div className=" absolute m-auto right-0 bottom-0 left-0 top-0 h-full w-full  ">
+              <div className=" z-10 absolute m-auto right-0 bottom-0 left-0 top-0 h-full w-full  ">
                 <video
                   ref={videoRef}
                   initial={{ opacity: 0 }}
                   src="/video2.mp4"
                   loop
                   muted
-                  className="w-full mx-auto h-full video-banner  object-cover object-center"
+                  className=" w-full mx-auto h-full video-banner  object-cover object-center"
                   style={{
                     objectFit: "cover",
                     width: "100%",
@@ -109,12 +110,12 @@ useEffect(() => {
 
               <div
                 onClick={handleVideoToggle}
-                className={`absolute left-0 top-0 z-10 flex h-full w-full items-center justify-center bg-primary bg-opacity-90`}
+                className={`cursor-pointer absolute border left-0 top-0 z-10 flex h-full w-full items-center justify-center bg-primary bg-transparent`}
               >
                 {!videoPlaying && (
-                  <div className="absolute z-20 flex p-4  items-center justify-center rounded-full text-white  play_btn h-[6rem] w-[6rem]">
-                    <span className="absolute flex  right-0 top-0 z-[-1] h-full w-full animate-ping rounded-full bg-green-300 bg-opacity-20 delay-300 duration-1000"></span>
-                    <FaPlay size={"3rem"} className="m-auto"  />
+                  <div className="absolute z-20 flex p-4  items-center justify-center rounded-full text-white   bg-transparent play_btn h-[6rem] w-[6rem]">
+                    <span className="absolute  flex  right-0 top-0 z-[-1] h-full w-full animate-ping rounded-full bg-green-300 bg-opacity-20 delay-300 duration-1000"></span>
+                    <FaPlay size={"3rem"} className="m-auto  bg-transparent"  />
                   </div>
                 )}
               </div>
@@ -484,6 +485,11 @@ useEffect(() => {
         </div>
       </div>
     </section>
+    
+    </>
+
+
+
   );
 };
 

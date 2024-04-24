@@ -1,74 +1,13 @@
 import React from "react";
-import { Link } from "react-scroll";
+import Link from "next/link";
 
 const Page = () => {
   return (
     <>
  
-<section class="bg-black">
-    <div class="max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
-        <nav class="flex flex-wrap justify-center -mx-5 -my-2">
-            <div class="px-5 py-2 z-50">
-              
-                <Link
-                style={{zIndex:100}}
-                  className=" linkTag"
-                  spy={true}
-                  to={"about"}
-                  smooth={true}
-                  duration={1}
-                  offset={1}
-                >
-				  About
-                </Link>
-            </div>
-           
-            <div class="px-5 py-2 z-50">
-                <Link
-        
-                  className=" linkTag"
-                  spy={true}
-                  to={"feature"}
-                  smooth={true}
-                  duration={1}
-                  offset={-25}
-                >
-				  Feature
-                </Link>
-            </div>
-				
-            <div class="px-5 py-2 z-50">
-                <Link
-        	
-                  className=" linkTag"
-                  spy={true}
-                  to={"products"}
-                  smooth={true}
-                  duration={1}
-                  offset={-25}
-                >
-				  Products
-                </Link>
-            </div>
-				
-            <div class="px-5 py-2 z-50">
-                <Link
-        
-                  className=" linkTag"
-                  spy={true}
-                  to={"testimonial"}
-                  smooth={true}
-                  duration={1}
-                  offset={0}
-                >
-				  Testimonial
-                </Link>
-            </div>
-				
-				
-           
-          
-        </nav>
+<section class="bg-white">
+    <div class="bg-white max-w-screen-xl px-4 py-12 mx-auto space-y-8 overflow-hidden sm:px-6 lg:px-8">
+    
         <div class="flex justify-center mt-8 space-x-6">
             <a href="#" class="text-gray-400 hover:text-gray-500">
                 <span class="sr-only">Facebook</span>

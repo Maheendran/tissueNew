@@ -29,5 +29,33 @@
   transition: 0.5s ease-in-out;
 }
 .showcase:hover img{
-  transform: scale(1);
+  transform: scale(0.9);
 }
+
+#app {
+  height: 100%;
+}
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.order_card {
+  transition: 0.5s ease-in-out;
+  }
+  
+  .order_card:hover {
+  
+    box-shadow: inset rgb(165, 164, 164) 2px 2px 4px;
+  }
+  ::-webkit-scrollbar{
+    display: none;
+  }
